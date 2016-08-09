@@ -1,0 +1,1061 @@
+[0m[[0minfo[0m] [0mUpdating {file:/F:/hanlong/eclipse/scala2/beibei/}beibei...[0m
+[0m[[0mdebug[0m] [0m:: resolving dependencies :: yks.be.datamagic#beibei-crawler_2.10;1.0.0[0m
+[0m[[0mdebug[0m] [0m	confs: [compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool][0m
+[0m[[0mdebug[0m] [0m	validate = true[0m
+[0m[[0mdebug[0m] [0m	refresh = false[0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-library;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: sbt.ivyint.MergedDescriptors@b943913[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-library;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.3] org.scala-lang#scala-library;2.10.3[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-log4j12;1.7.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-log4j12;1.7.7 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-log4j12;1.7.7[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-log4j12;1.7.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.slf4j#slf4j-api;1.7.7 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.slf4j#slf4j-api;1.7.7 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.slf4j#slf4j-api;1.7.7[0m
+[0m[[0mdebug[0m] [0m	found org.slf4j#slf4j-api;1.7.7 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving log4j#log4j;1.2.17 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: log4j#log4j;1.2.17 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: log4j#log4j;1.2.17[0m
+[0m[[0mdebug[0m] [0m	found log4j#log4j;1.2.17 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving net.sourceforge.nekohtml#nekohtml;1.9.15 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: net.sourceforge.nekohtml#nekohtml;1.9.15 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: net.sourceforge.nekohtml#nekohtml;1.9.15[0m
+[0m[[0mdebug[0m] [0m	found net.sourceforge.nekohtml#nekohtml;1.9.15 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving xerces#xercesImpl;2.9.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: xerces#xercesImpl;2.9.1 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: xerces#xercesImpl;2.9.1[0m
+[0m[[0mdebug[0m] [0m	found xerces#xercesImpl;2.9.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving xml-apis#xml-apis;1.3.04 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: xml-apis#xml-apis;1.3.04 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: xml-apis#xml-apis;1.3.04[0m
+[0m[[0mdebug[0m] [0m	found xml-apis#xml-apis;1.3.04 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving commons-httpclient#commons-httpclient;3.1 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-httpclient#commons-httpclient;3.1 {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-httpclient#commons-httpclient;3.1[0m
+[0m[[0mdebug[0m] [0m	found commons-httpclient#commons-httpclient;3.1 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving commons-logging#commons-logging;1.0.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-logging#commons-logging;1.0.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-logging#commons-logging;1.0.4[0m
+[0m[[0mdebug[0m] [0m	found commons-logging#commons-logging;1.0.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving commons-codec#commons-codec;1.2 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: commons-codec#commons-codec;1.2 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: commons-codec#commons-codec;1.2[0m
+[0m[[0mdebug[0m] [0m	found commons-codec#commons-codec;1.2 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->default(compile)][0m
+[0m[[0minfo[0m] [0mResolving yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT: changing=true[0m
+[0m[[0minfo[0m] [0mResolving yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT ...[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate is changing. Checking all resolvers on the chain[0m
+[0m[[0mdebug[0m] [0msbt-chain-delegate: Checking cache for: dependency: yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT {compile=[default(compile)]}[0m
+[0m[[0mdebug[0m] [0mdon't use cache for yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mdon't use cache for yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0m		tried C:\Users\HL\.ivy2\local\yks.be.datamagic\spider-man_2.10\1.0.0-SNAPSHOT\ivys\ivy.xml[0m
+[0m[[0mdebug[0m] [0m	local: no ivy file found for yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: https://repo1.maven.org/maven2/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried https://repo1.maven.org/maven2/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/spider-man_2.10-1.0.0-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=https://repo1.maven.org/maven2/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/spider-man_2.10-1.0.0-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	public: no ivy file found for yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mproblem occurred while resolving dependency: yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT {compile=[default(compile)]} with Local Maven Repository: java.lang.IllegalArgumentException: URI has an authority component[0m
+[0m[[0mdebug[0m] [0m	at java.io.File.<init>(File.java:423)[0m
+[0m[[0mdebug[0m] [0m	at sbt.IO$.toFile(IO.scala:127)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ConvertResolver$LocalIfFileRepo.getResource(ConvertResolver.scala:236)[0m
+[0m[[0mdebug[0m] [0m	at org.apache.ivy.plugins.resolver.IBiblioResolver.findSnapshotVersion(IBiblioResolver.java:168)[0m
+[0m[[0mdebug[0m] [0m	at org.apache.ivy.plugins.resolver.IBiblioResolver.findSnapshotDescriptor(IBiblioResolver.java:142)[0m
+[0m[[0mdebug[0m] [0m	at org.apache.ivy.plugins.resolver.IBiblioResolver.findIvyFileRef(IBiblioResolver.java:96)[0m
+[0m[[0mdebug[0m] [0m	at org.apache.ivy.plugins.resolver.BasicResolver.getDependency(BasicResolver.java:228)[0m
+[0m[[0mdebug[0m] [0m	at org.apache.ivy.plugins.resolver.IBiblioResolver.getDependency(IBiblioResolver.java:538)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ConvertResolver$$anonfun$defaultConvert$1$PluginCapableResolver$1.sbt$ConvertResolver$DescriptorRequired$$super$getDependency(ConvertResolver.scala:115)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ConvertResolver$DescriptorRequired$class.getDependency(ConvertResolver.scala:185)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ConvertResolver$$anonfun$defaultConvert$1$PluginCapableResolver$1.getDependency(ConvertResolver.scala:115)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver$$anonfun$results$lzycompute$1$1.apply(SbtChainResolver.scala:135)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver$$anonfun$results$lzycompute$1$1.apply(SbtChainResolver.scala:123)[0m
+[0m[[0mdebug[0m] [0m	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244)[0m
+[0m[[0mdebug[0m] [0m	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244)[0m
+[0m[[0mdebug[0m] [0m	at scala.collection.Iterator$class.foreach(Iterator.scala:727)[0m
+[0m[[0mdebug[0m] [0m	at scala.collection.AbstractIterator.foreach(Iterator.scala:1157)[0m
+[0m[[0mdebug[0m] [0m	at scala.collection.IterableLike$class.foreach(IterableLike.scala:72)[0m
+[0m[[0mdebug[0m] [0m	at scala.collection.AbstractIterable.foreach(Iterable.scala:54)[0m
+[0m[[0mdebug[0m] [0m	at scala.collection.TraversableLike$class.map(TraversableLike.scala:244)[0m
+[0m[[0mdebug[0m] [0m	at scala.collection.AbstractTraversable.map(Traversable.scala:105)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver.results$lzycompute$1(SbtChainResolver.scala:123)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver.results$1(SbtChainResolver.scala:123)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver.foundRevisions$1(SbtChainResolver.scala:161)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver.sbt$ivyint$SbtChainResolver$$sorted$1(SbtChainResolver.scala:163)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver$$anonfun$7.apply(SbtChainResolver.scala:203)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver$$anonfun$7.apply(SbtChainResolver.scala:203)[0m
+[0m[[0mdebug[0m] [0m	at scala.Option.orElse(Option.scala:257)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver.doGetDependency(SbtChainResolver.scala:203)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver.getDependency(SbtChainResolver.scala:73)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver$$anonfun$results$lzycompute$1$1.apply(SbtChainResolver.scala:135)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver$$anonfun$results$lzycompute$1$1.apply(SbtChainResolver.scala:123)[0m
+[0m[[0mdebug[0m] [0m	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244)[0m
+[0m[[0mdebug[0m] [0m	at scala.collection.TraversableLike$$anonfun$map$1.apply(TraversableLike.scala:244)[0m
+[0m[[0mdebug[0m] [0m	at scala.collection.Iterator$class.foreach(Iterator.scala:727)[0m
+[0m[[0mdebug[0m] [0m	at scala.collection.AbstractIterator.foreach(Iterator.scala:1157)[0m
+[0m[[0mdebug[0m] [0m	at scala.collection.IterableLike$class.foreach(IterableLike.scala:72)[0m
+[0m[[0mdebug[0m] [0m	at scala.collection.AbstractIterable.foreach(Iterable.scala:54)[0m
+[0m[[0mdebug[0m] [0m	at scala.collection.TraversableLike$class.map(TraversableLike.scala:244)[0m
+[0m[[0mdebug[0m] [0m	at scala.collection.AbstractTraversable.map(Traversable.scala:105)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver.results$lzycompute$1(SbtChainResolver.scala:123)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver.results$1(SbtChainResolver.scala:123)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver.foundRevisions$1(SbtChainResolver.scala:161)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver.sbt$ivyint$SbtChainResolver$$sorted$1(SbtChainResolver.scala:201)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver$$anonfun$7.apply(SbtChainResolver.scala:203)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver$$anonfun$7.apply(SbtChainResolver.scala:203)[0m
+[0m[[0mdebug[0m] [0m	at scala.Option.orElse(Option.scala:257)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver.doGetDependency(SbtChainResolver.scala:203)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ivyint.SbtChainResolver.getDependency(SbtChainResolver.scala:73)[0m
+[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.IvyNode.loadData(IvyNode.java:169)[0m
+[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.VisitNode.loadData(VisitNode.java:292)[0m
+[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.fetchDependencies(ResolveEngine.java:714)[0m
+[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.doFetchDependencies(ResolveEngine.java:799)[0m
+[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.fetchDependencies(ResolveEngine.java:722)[0m
+[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.getDependencies(ResolveEngine.java:594)[0m
+[0m[[0mdebug[0m] [0m	at org.apache.ivy.core.resolve.ResolveEngine.resolve(ResolveEngine.java:234)[0m
+[0m[[0mdebug[0m] [0m	at org.apache.ivy.Ivy.resolve(Ivy.java:517)[0m
+[0m[[0mdebug[0m] [0m	at sbt.IvyActions$.sbt$IvyActions$$resolve(IvyActions.scala:301)[0m
+[0m[[0mdebug[0m] [0m	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:191)[0m
+[0m[[0mdebug[0m] [0m	at sbt.IvyActions$$anonfun$updateEither$1.apply(IvyActions.scala:168)[0m
+[0m[[0mdebug[0m] [0m	at sbt.IvySbt$Module$$anonfun$withModule$1.apply(Ivy.scala:156)[0m
+[0m[[0mdebug[0m] [0m	at sbt.IvySbt$Module$$anonfun$withModule$1.apply(Ivy.scala:156)[0m
+[0m[[0mdebug[0m] [0m	at sbt.IvySbt$$anonfun$withIvy$1.apply(Ivy.scala:133)[0m
+[0m[[0mdebug[0m] [0m	at sbt.IvySbt.sbt$IvySbt$$action$1(Ivy.scala:57)[0m
+[0m[[0mdebug[0m] [0m	at sbt.IvySbt$$anon$4.call(Ivy.scala:65)[0m
+[0m[[0mdebug[0m] [0m	at xsbt.boot.Locks$GlobalLock.withChannel$1(Locks.scala:93)[0m
+[0m[[0mdebug[0m] [0m	at xsbt.boot.Locks$GlobalLock.xsbt$boot$Locks$GlobalLock$$withChannelRetries$1(Locks.scala:78)[0m
+[0m[[0mdebug[0m] [0m	at xsbt.boot.Locks$GlobalLock$$anonfun$withFileLock$1.apply(Locks.scala:97)[0m
+[0m[[0mdebug[0m] [0m	at xsbt.boot.Using$.withResource(Using.scala:10)[0m
+[0m[[0mdebug[0m] [0m	at xsbt.boot.Using$.apply(Using.scala:9)[0m
+[0m[[0mdebug[0m] [0m	at xsbt.boot.Locks$GlobalLock.ignoringDeadlockAvoided(Locks.scala:58)[0m
+[0m[[0mdebug[0m] [0m	at xsbt.boot.Locks$GlobalLock.withLock(Locks.scala:48)[0m
+[0m[[0mdebug[0m] [0m	at xsbt.boot.Locks$.apply0(Locks.scala:31)[0m
+[0m[[0mdebug[0m] [0m	at xsbt.boot.Locks$.apply(Locks.scala:28)[0m
+[0m[[0mdebug[0m] [0m	at sbt.IvySbt.withDefaultLogger(Ivy.scala:65)[0m
+[0m[[0mdebug[0m] [0m	at sbt.IvySbt.withIvy(Ivy.scala:128)[0m
+[0m[[0mdebug[0m] [0m	at sbt.IvySbt.withIvy(Ivy.scala:125)[0m
+[0m[[0mdebug[0m] [0m	at sbt.IvySbt$Module.withModule(Ivy.scala:156)[0m
+[0m[[0mdebug[0m] [0m	at sbt.IvyActions$.updateEither(IvyActions.scala:168)[0m
+[0m[[0mdebug[0m] [0m	at sbt.Classpaths$$anonfun$sbt$Classpaths$$work$1$1.apply(Defaults.scala:1439)[0m
+[0m[[0mdebug[0m] [0m	at sbt.Classpaths$$anonfun$sbt$Classpaths$$work$1$1.apply(Defaults.scala:1435)[0m
+[0m[[0mdebug[0m] [0m	at sbt.Classpaths$$anonfun$doWork$1$1$$anonfun$90.apply(Defaults.scala:1470)[0m
+[0m[[0mdebug[0m] [0m	at sbt.Classpaths$$anonfun$doWork$1$1$$anonfun$90.apply(Defaults.scala:1468)[0m
+[0m[[0mdebug[0m] [0m	at sbt.Tracked$$anonfun$lastOutput$1.apply(Tracked.scala:37)[0m
+[0m[[0mdebug[0m] [0m	at sbt.Classpaths$$anonfun$doWork$1$1.apply(Defaults.scala:1473)[0m
+[0m[[0mdebug[0m] [0m	at sbt.Classpaths$$anonfun$doWork$1$1.apply(Defaults.scala:1467)[0m
+[0m[[0mdebug[0m] [0m	at sbt.Tracked$$anonfun$inputChanged$1.apply(Tracked.scala:60)[0m
+[0m[[0mdebug[0m] [0m	at sbt.Classpaths$.cachedUpdate(Defaults.scala:1490)[0m
+[0m[[0mdebug[0m] [0m	at sbt.Classpaths$$anonfun$updateTask$1.apply(Defaults.scala:1417)[0m
+[0m[[0mdebug[0m] [0m	at sbt.Classpaths$$anonfun$updateTask$1.apply(Defaults.scala:1369)[0m
+[0m[[0mdebug[0m] [0m	at scala.Function1$$anonfun$compose$1.apply(Function1.scala:47)[0m
+[0m[[0mdebug[0m] [0m	at sbt.$tilde$greater$$anonfun$$u2219$1.apply(TypeFunctions.scala:40)[0m
+[0m[[0mdebug[0m] [0m	at sbt.std.Transform$$anon$4.work(System.scala:63)[0m
+[0m[[0mdebug[0m] [0m	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)[0m
+[0m[[0mdebug[0m] [0m	at sbt.Execute$$anonfun$submit$1$$anonfun$apply$1.apply(Execute.scala:228)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ErrorHandling$.wideConvert(ErrorHandling.scala:17)[0m
+[0m[[0mdebug[0m] [0m	at sbt.Execute.work(Execute.scala:237)[0m
+[0m[[0mdebug[0m] [0m	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)[0m
+[0m[[0mdebug[0m] [0m	at sbt.Execute$$anonfun$submit$1.apply(Execute.scala:228)[0m
+[0m[[0mdebug[0m] [0m	at sbt.ConcurrentRestrictions$$anon$4$$anonfun$1.apply(ConcurrentRestrictions.scala:159)[0m
+[0m[[0mdebug[0m] [0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:28)[0m
+[0m[[0mdebug[0m] [0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0mdebug[0m] [0m	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)[0m
+[0m[[0mdebug[0m] [0m	at java.util.concurrent.FutureTask.run(FutureTask.java:266)[0m
+[0m[[0mdebug[0m] [0m	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)[0m
+[0m[[0mdebug[0m] [0m	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)[0m
+[0m[[0mdebug[0m] [0m	at java.lang.Thread.run(Thread.java:745)[0m
+[0m[[0mdebug[0m] [0mdon't use cache for yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://ci.nexus.kokoerp.com:8081/nexus/content/repositories/snapshots/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://ci.nexus.kokoerp.com:8081/nexus/content/repositories/snapshots/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://ci.nexus.kokoerp.com:8081/nexus/content/repositories/snapshots/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/spider-man_2.10-1.0.0-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	snapshots: found md file for yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m		=> http://ci.nexus.kokoerp.com:8081/nexus/content/repositories/snapshots/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/spider-man_2.10-1.0.0-SNAPSHOT.pom (1.0.0-SNAPSHOT)[0m
+[0m[[0mdebug[0m] [0m	default-cache: revision in cache (not updated): yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://ci.nexus.kokoerp.com:8081/nexus/content/repositories/snapshots/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://ci.nexus.kokoerp.com:8081/nexus/content/repositories/snapshots/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/spider-man_2.10-1.0.0-SNAPSHOT.pom[0m
+[0m[[33mwarn[0m] [0mUnable to reparse yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT from snapshots, using Tue Aug 02 15:05:08 CST 2016[0m
+[0m[[0mdebug[0m] [0mdon't use cache for yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://ci.nexus.kokoerp.com:8081/nexus/content/repositories/releases/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://ci.nexus.kokoerp.com:8081/nexus/content/repositories/releases/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://ci.nexus.kokoerp.com:8081/nexus/content/repositories/releases/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/spider-man_2.10-1.0.0-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://ci.nexus.kokoerp.com:8081/nexus/content/repositories/releases/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/spider-man_2.10-1.0.0-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	releases: no ivy file found for yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT: changing=true[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.typesafe.com/typesafe/releases/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.typesafe.com/typesafe/releases/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/spider-man_2.10-1.0.0-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0mCLIENT ERROR: Not Found url=http://repo.typesafe.com/typesafe/releases/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/spider-man_2.10-1.0.0-SNAPSHOT.pom[0m
+[0m[[0mdebug[0m] [0m	Typesafe Repository: no ivy file found for yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0mdon't use cache for yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT: changing=true[0m
+[0m[[33mwarn[0m] [0mHost repo.akaka.io not found. url=http://repo.akaka.io/releases/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0minfo[0m] [0mYou probably access the destination server through a proxy server that is not well configured.[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://repo.akaka.io/releases/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://repo.akaka.io/releases/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/spider-man_2.10-1.0.0-SNAPSHOT.pom[0m
+[0m[[33mwarn[0m] [0mHost repo.akaka.io not found. url=http://repo.akaka.io/releases/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/spider-man_2.10-1.0.0-SNAPSHOT.pom[0m
+[0m[[0minfo[0m] [0mYou probably access the destination server through a proxy server that is not well configured.[0m
+[0m[[0mdebug[0m] [0m	Akka Repository: no ivy file found for yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT[0m
+[0m[[33mwarn[0m] [0mChoosing snapshots for yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT[0m
+[0m[[0mdebug[0m] [0m	maven-metadata not available: http://ci.nexus.kokoerp.com:8081/nexus/content/repositories/snapshots/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/maven-metadata.xml[0m
+[0m[[0mdebug[0m] [0m		tried http://ci.nexus.kokoerp.com:8081/nexus/content/repositories/snapshots/yks/be/datamagic/spider-man_2.10/1.0.0-SNAPSHOT/spider-man_2.10-1.0.0-SNAPSHOT.jar[0m
+[0m[[0mdebug[0m] [0m	found yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.avaje#ebean;2.7.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.avaje#ebean;2.7.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.avaje#ebean;2.7.3[0m
+[0m[[0mdebug[0m] [0m	found org.avaje#ebean;2.7.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving javax.persistence#persistence-api;1.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: javax.persistence#persistence-api;1.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: javax.persistence#persistence-api;1.0[0m
+[0m[[0mdebug[0m] [0m	found javax.persistence#persistence-api;1.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving mysql#mysql-connector-java;5.1.34 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: mysql#mysql-connector-java;5.1.34 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: mysql#mysql-connector-java;5.1.34[0m
+[0m[[0mdebug[0m] [0m	found mysql#mysql-connector-java;5.1.34 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.jsoup#jsoup;1.8.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.jsoup#jsoup;1.8.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.jsoup#jsoup;1.8.3[0m
+[0m[[0mdebug[0m] [0m	found org.jsoup#jsoup;1.8.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-databind;2.6.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-databind;2.6.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-databind;2.6.4[0m
+[0m[[0mdebug[0m] [0m	found com.fasterxml.jackson.core#jackson-databind;2.6.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-annotations;2.6.0 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-annotations;2.6.0 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-annotations;2.6.0[0m
+[0m[[0mdebug[0m] [0m	found com.fasterxml.jackson.core#jackson-annotations;2.6.0 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving com.fasterxml.jackson.core#jackson-core;2.6.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: com.fasterxml.jackson.core#jackson-core;2.6.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: com.fasterxml.jackson.core#jackson-core;2.6.4[0m
+[0m[[0mdebug[0m] [0m	found com.fasterxml.jackson.core#jackson-core;2.6.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving redis.clients#jedis;2.7.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: redis.clients#jedis;2.7.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: redis.clients#jedis;2.7.3[0m
+[0m[[0mdebug[0m] [0m	found redis.clients#jedis;2.7.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.apache.commons#commons-pool2;2.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.apache.commons#commons-pool2;2.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.apache.commons#commons-pool2;2.3[0m
+[0m[[0mdebug[0m] [0m	found org.apache.commons#commons-pool2;2.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->master][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'provided'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'optional'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'compile-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [compile-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'runtime-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [runtime-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [optional][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'test-internal'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [test-internal][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [test][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->org.slf4j#slf4j-api;1.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.slf4j#slf4j-log4j12;1.7.7->log4j#log4j;1.2.17 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.slf4j#slf4j-log4j12;1.7.7 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies net.sourceforge.nekohtml#nekohtml;1.9.15->xerces#xercesImpl;2.9.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies xerces#xercesImpl;2.9.1->xml-apis#xml-apis;1.3.04 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-logging#commons-logging;1.0.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies commons-httpclient#commons-httpclient;3.1->commons-codec#commons-codec;1.2 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->commons-httpclient#commons-httpclient;3.1 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.slf4j#slf4j-log4j12;1.7.7 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->net.sourceforge.nekohtml#nekohtml;1.9.15 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->commons-httpclient#commons-httpclient;3.1 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.avaje#ebean;2.7.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.avaje#ebean;2.7.3->javax.persistence#persistence-api;1.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->mysql#mysql-connector-java;5.1.34 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->org.jsoup#jsoup;1.8.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->com.fasterxml.jackson.core#jackson-databind;2.6.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-annotations;2.6.0 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies com.fasterxml.jackson.core#jackson-databind;2.6.4->com.fasterxml.jackson.core#jackson-core;2.6.4 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT->redis.clients#jedis;2.7.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies redis.clients#jedis;2.7.3->org.apache.commons#commons-pool2;2.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.avaje#ebean;2.7.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->mysql#mysql-connector-java;5.1.34 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->default(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.jsoup#jsoup;1.8.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [optional][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [provided][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'plugin'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [plugin][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'sources'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [sources][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'docs'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [docs][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'pom'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [pom][0m
+[0m[[0mdebug[0m] [0mresolving dependencies for configuration 'scala-tool'[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies for yks.be.datamagic#beibei-crawler_2.10;1.0.0 [scala-tool][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->default][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-compiler;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-compiler;2.10.3 {scala-tool=[default, optional(default)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-compiler;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-compiler;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#scala-reflect;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#scala-reflect;2.10.3 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#scala-reflect;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#scala-reflect;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m	[2.10.3] org.scala-lang#scala-reflect;2.10.3[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->master(compile)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [compile->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-reflect;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-library;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->runtime(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#scala-reflect;2.10.3 [runtime->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-compiler;2.10.3 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#jline;2.10.3 [optional->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.scala-lang#jline;2.10.3 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.scala-lang#jline;2.10.3 {optional=[compile(*), master(compile)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.scala-lang#jline;2.10.3[0m
+[0m[[0mdebug[0m] [0m	found org.scala-lang#jline;2.10.3 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#scala-compiler;2.10.3->org.scala-lang#jline;2.10.3 [optional->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.3->org.fusesource.jansi#jansi;1.4 [compile->master(compile)][0m
+[0m[[0minfo[0m] [0mResolving org.fusesource.jansi#jansi;1.4 ...[0m
+[0m[[0mdebug[0m] [0msbt-chain: Checking cache for: dependency: org.fusesource.jansi#jansi;1.4 {compile=[compile(*), master(compile)], runtime=[runtime(*)]}[0m
+[0m[[0mdebug[0m] [0msbt-chain: module revision found in cache: org.fusesource.jansi#jansi;1.4[0m
+[0m[[0mdebug[0m] [0m	found org.fusesource.jansi#jansi;1.4 in sbt-chain[0m
+[0m[[0mdebug[0m] [0m== resolving dependencies org.scala-lang#jline;2.10.3->org.fusesource.jansi#jansi;1.4 [compile->compile(*)][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [scala-tool->default][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [scala-tool->runtime][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [scala-tool->compile][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [scala-tool->master][0m
+[0m[[0mdebug[0m] [0m== resolving dependencies yks.be.datamagic#beibei-crawler_2.10;1.0.0->org.scala-lang#scala-library;2.10.3 [scala-tool->optional(default)][0m
+[0m[[0mdebug[0m] [0m	resolved ivy file produced in cache[0m
+[0m[[0mdebug[0m] [0m:: downloading artifacts ::[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-library;2.10.3!scala-library.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-log4j12;1.7.7!slf4j-log4j12.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] net.sourceforge.nekohtml#nekohtml;1.9.15!nekohtml.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-httpclient#commons-httpclient;3.1!commons-httpclient.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] yks.be.datamagic#spider-man_2.10;1.0.0-SNAPSHOT!spider-man_2.10.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.avaje#ebean;2.7.3!ebean.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] mysql#mysql-connector-java;5.1.34!mysql-connector-java.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.jsoup#jsoup;1.8.3!jsoup.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.slf4j#slf4j-api;1.7.7!slf4j-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] log4j#log4j;1.2.17!log4j.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] xerces#xercesImpl;2.9.1!xercesImpl.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] xml-apis#xml-apis;1.3.04!xml-apis.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-logging#commons-logging;1.0.4!commons-logging.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] commons-codec#commons-codec;1.2!commons-codec.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-databind;2.6.4!jackson-databind.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] redis.clients#jedis;2.7.3!jedis.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] javax.persistence#persistence-api;1.0!persistence-api.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-annotations;2.6.0!jackson-annotations.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] com.fasterxml.jackson.core#jackson-core;2.6.4!jackson-core.jar(bundle)[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.apache.commons#commons-pool2;2.3!commons-pool2.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-compiler;2.10.3!scala-compiler.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#scala-reflect;2.10.3!scala-reflect.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.scala-lang#jline;2.10.3!jline.jar[0m
+[0m[[0mdebug[0m] [0m	[NOT REQUIRED] org.fusesource.jansi#jansi;1.4!jansi.jar[0m
+[0m[[0mdebug[0m] [0m:: resolution report :: resolve 28909ms :: artifacts dl 26ms[0m
+[0m[[0mdebug[0m] [0m	report for yks.be.datamagic#beibei-crawler_2.10;1.0.0 compile produced in F:\hanlong\eclipse\scala2\beibei\target\resolution-cache\reports\yks.be.datamagic-beibei-crawler_2.10-compile.xml[0m
+[0m[[0mdebug[0m] [0m	report for yks.be.datamagic#beibei-crawler_2.10;1.0.0 runtime produced in F:\hanlong\eclipse\scala2\beibei\target\resolution-cache\reports\yks.be.datamagic-beibei-crawler_2.10-runtime.xml[0m
+[0m[[0mdebug[0m] [0m	report for yks.be.datamagic#beibei-crawler_2.10;1.0.0 test produced in F:\hanlong\eclipse\scala2\beibei\target\resolution-cache\reports\yks.be.datamagic-beibei-crawler_2.10-test.xml[0m
+[0m[[0mdebug[0m] [0m	report for yks.be.datamagic#beibei-crawler_2.10;1.0.0 provided produced in F:\hanlong\eclipse\scala2\beibei\target\resolution-cache\reports\yks.be.datamagic-beibei-crawler_2.10-provided.xml[0m
+[0m[[0mdebug[0m] [0m	report for yks.be.datamagic#beibei-crawler_2.10;1.0.0 optional produced in F:\hanlong\eclipse\scala2\beibei\target\resolution-cache\reports\yks.be.datamagic-beibei-crawler_2.10-optional.xml[0m
+[0m[[0mdebug[0m] [0m	report for yks.be.datamagic#beibei-crawler_2.10;1.0.0 compile-internal produced in F:\hanlong\eclipse\scala2\beibei\target\resolution-cache\reports\yks.be.datamagic-beibei-crawler_2.10-compile-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for yks.be.datamagic#beibei-crawler_2.10;1.0.0 runtime-internal produced in F:\hanlong\eclipse\scala2\beibei\target\resolution-cache\reports\yks.be.datamagic-beibei-crawler_2.10-runtime-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for yks.be.datamagic#beibei-crawler_2.10;1.0.0 test-internal produced in F:\hanlong\eclipse\scala2\beibei\target\resolution-cache\reports\yks.be.datamagic-beibei-crawler_2.10-test-internal.xml[0m
+[0m[[0mdebug[0m] [0m	report for yks.be.datamagic#beibei-crawler_2.10;1.0.0 plugin produced in F:\hanlong\eclipse\scala2\beibei\target\resolution-cache\reports\yks.be.datamagic-beibei-crawler_2.10-plugin.xml[0m
+[0m[[0mdebug[0m] [0m	report for yks.be.datamagic#beibei-crawler_2.10;1.0.0 sources produced in F:\hanlong\eclipse\scala2\beibei\target\resolution-cache\reports\yks.be.datamagic-beibei-crawler_2.10-sources.xml[0m
+[0m[[0mdebug[0m] [0m	report for yks.be.datamagic#beibei-crawler_2.10;1.0.0 docs produced in F:\hanlong\eclipse\scala2\beibei\target\resolution-cache\reports\yks.be.datamagic-beibei-crawler_2.10-docs.xml[0m
+[0m[[0mdebug[0m] [0m	report for yks.be.datamagic#beibei-crawler_2.10;1.0.0 pom produced in F:\hanlong\eclipse\scala2\beibei\target\resolution-cache\reports\yks.be.datamagic-beibei-crawler_2.10-pom.xml[0m
+[0m[[0mdebug[0m] [0m	report for yks.be.datamagic#beibei-crawler_2.10;1.0.0 scala-tool produced in F:\hanlong\eclipse\scala2\beibei\target\resolution-cache\reports\yks.be.datamagic-beibei-crawler_2.10-scala-tool.xml[0m
+[0m[[0mdebug[0m] [0m	resolve done (28909ms resolve - 26ms download)[0m
+[0m[[0minfo[0m] [0mDone updating.[0m
